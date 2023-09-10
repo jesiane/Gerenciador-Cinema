@@ -3,3 +3,12 @@
 h1 {
   color: #ffb223;
 }
+body {
+ background-color: #4158d0;
+   background-image: linear-gradient(
+     43deg,
+     #41d041 0%,
+     #5052c8 46%,
+     #ffb070 100%
+   ); 
+}

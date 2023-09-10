@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmes - APDb</title>
+  <title>Filmes - JSMDb</title>
   
   <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
 </head>
@@ -11,73 +11,34 @@
       <nav class="navbar">
         <div class="container">
           <a class="navbar-brand text-light fs-4 fw-bold" href="index.html"
-            >APMDb</a
-          >
+            >JSMDb</a>
   
           <a class="btn btn-outline-light" href="index.html">Página Inicial</a>
         </div>
       </nav>
       <div class="container d-grid gap-3 my-4">
         <!-- Cabecalho -->
-        <div class="row">
-          <div class="d-flex align-items-center">
-            <h1 class="text-light">Homem-Aranha: Através do Aranhaverso</h1>
-  
-            <div class="ms-auto text-end">
-              <p class="text-light">12.200 Votos</p>
-              <i class="bi bi-heart fs-2 text-warning"></i>
-            </div>
-          </div>
-          <small id="dataLancamento">01/06/2023</small>
-        </div>
+        <div id="pnlCabecalho" class="row">
       
-        <div class="row gap-3">
-          <div class="col-lg-3">
-            <img
-              src="https://image.tmdb.org/t/p/original/4CwKj1fw33BXYzxvrpM3GlAhK4L.jpg"
-              class="img-fluid rounded-3"
-              alt=""
-            />
-          </div>
-          <div class="col-lg">
-            <div class="ratio ratio-21x9 h-100">
-              <iframe
-                class="rounded-3"
-                id="iframeTrailer"
-                src="https://www.youtube.com/watch?v=shW9i6k8cB0"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
         </div>
   
-
-        <div class="d-flex gap-3">
-          <span class="badge rounded-pill fs-5 px-4 py-2 bg-warning text-dark"
-            >Aventura</span
-          >
-          <span class="badge rounded-pill fs-5 px-4 py-2 bg-warning text-dark"
-            >Animação</span
-          >
-          <span class="badge rounded-pill fs-5 px-4 py-2 bg-warning text-dark"
-            >Familia</span
-          >
+        <!-- Seção do Poster e Trailer -->
+        <div id="pnlTrailer" class="row gap-3">
+          
         </div>
-
+  
+        <div id="pnlGeneros" class="d-flex gap-3">
+        
+        </div>
+  
         <div class="row">
-          <p class="fs-5 text-light">
-            Homem-Aranha: Através do Aranhaverso, é a continuação do vencedor do Oscar Homem-Aranha: 
-            No Aranhaverso, de 2018, que acompanha Miles Morales (Shameik Moore), o simpático Homem-Aranha 
-            do Brooklyn. Neste novo capítulo, Miles está de volta para uma nova missão em sua agitada vida 
-            como super herói. No novo filme, Morales é transportado para uma aventura épica através do multiverso, 
-            e deve unir forças com a mulher-aranha Gwen Stacy (Hailee Steinfeld) e um novo time de Pessoas-Aranha, 
-            formado por heróis de diversas dimensões. No entanto, tudo muda quando os heróis entram em conflito 
-            sobre como lidar com uma nova ameaça, e Miles se vê em um impasse. E para piorar ainda mais a situação, 
-            eles precisam enfrentar um vilão muito mais poderoso do que qualquer coisa que já tenham encontrado antes. 
-            Agora, para salvar as pessoas que ele mais ama no mundo, Miles deve redefinir o que significa ser um super 
-            herói.
+          <p id="lblDescricao" class="fs-5 text-light">
+           
           </p>
+        </div>
+        
+        <div id="pnlCreditos" class="row">
+         
         </div>
       </div>
     </body>
